@@ -8,7 +8,7 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/gitbtn"
+        android:id="@+id/pracbtn"
         android:layout_width="197dp"
         android:layout_height="109dp"
         android:text="Practice"
@@ -27,14 +27,14 @@
         android:text="Exam"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/gitbtn"
+        app:layout_constraintEnd_toEndOf="@+id/pracbtn"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/gitbtn"
-        app:layout_constraintTop_toBottomOf="@+id/gitbtn"
+        app:layout_constraintStart_toStartOf="@+id/pracbtn"
+        app:layout_constraintTop_toBottomOf="@+id/pracbtn"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/gitbtn"
         android:layout_width="0dp"
         android:layout_height="109dp"
         android:text="GIt"
