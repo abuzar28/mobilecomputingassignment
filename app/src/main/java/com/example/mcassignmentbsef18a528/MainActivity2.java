@@ -25,6 +25,10 @@ public class MainActivity2 extends AppCompatActivity {
            Myadapter(Context c,String t[],int i1[],int i2[]){
                super(c,R.layout.customized);
 
+
+
+
+               // add array adapter
            }
 
     }
