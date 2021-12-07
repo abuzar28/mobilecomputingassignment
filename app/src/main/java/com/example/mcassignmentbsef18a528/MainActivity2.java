@@ -29,7 +29,27 @@ public class MainActivity2 extends AppCompatActivity {
 
 
 
+               ArrayList<CustomObject> allObjects = new ArrayList<>();
 
+               allObjects.add("title", "http://url.com"));
+
+
+               ArrayAdapter<NewsObject> adapter = new ArrayAdapter<NewsObject>(this,
+                       android.R.layout.simple_list_item_1, android.R.id.text1, allNews);
+
+
+               // Assign adapter to ListView
+               listView.setAdapter(adapter);
+
+
+               listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                   @Override
+                   public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                       Uri uri = Uri.parse( "http://www.google.com" );
+                       startActivity(new Intent(Intent.ACTION_VIEW, uri));
+                   }
+               });
                // add array adapter
 
 
