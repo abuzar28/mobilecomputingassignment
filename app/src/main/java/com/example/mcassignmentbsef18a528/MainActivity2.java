@@ -16,6 +16,8 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
            listView=findViewById(R.id.list1);
+           //
+         //assigning list adapter
     }
 
     class Myadapter extends ArrayAdapter<String>{
@@ -29,6 +31,11 @@ public class MainActivity2 extends AppCompatActivity {
 
 
                // add array adapter
+
+
+
+
+
            }
 
     }
